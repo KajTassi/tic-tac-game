@@ -4,17 +4,17 @@ function Scores({ scores }) {
   return (
     <section className="scores">
       <div>
-        <span>Player</span>
+        <span>Player Wins</span>
         <br />
         <span>{scores.x}</span>
       </div>
       <div>
-        <span>Tie</span>
+        <span>Draws</span>
         <br />
         <span>{scores.tie}</span>
       </div>
       <div>
-        <span>Computer</span>
+        <span>AI Wins</span>
         <br />
         <span>{scores.o}</span>
       </div>

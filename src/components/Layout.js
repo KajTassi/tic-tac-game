@@ -1,6 +1,6 @@
 import "./Styling.css";
 
-function Square({ id, value, handleClick, board }) {
+function Layout({ id, value, handleClick, board }) {
   return (
     <div id={id} onClick={() => handleClick(id)} className="square">
       <p className={
@@ -12,4 +12,4 @@ function Square({ id, value, handleClick, board }) {
   );
 }
 
-export default Square;
+export default Layout;
