@@ -1,17 +1,17 @@
-.board {
-    max-width: 452px;
-    max-height: 452;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 5px;
-  }
+  .board {
+      max-width: 452px;
+      max-height: 452;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 5px;
+    }
   
   .scores {
     display: flex;
     color: #fff;
     font-size: 26px;
-    justify-content: space-between;
     margin-bottom: 35px;
+    justify-content: space-between;
     font-weight: 100;
   }
 
@@ -19,6 +19,15 @@
     width: 150px;
     text-align: center;
     line-height: 35px;
+  }
+
+  .scores h1 {
+    display:inline-block;
+    width: 92%;
+    text-align:center;
+    margin-top: 5px;
+    text-decoration: underline;
+    font-family: cursive, Comic Sans MS, Snell Roundhand;
   }
   
   .square {
