@@ -169,11 +169,25 @@ function Board({ setScores }) {
           const moves = nodes[score] ? `${nodes[score]},${index}` : index;
           nodes[score] = moves;
         }
+        /*
+        This section below is the only thing that changes the AI from being unbeatable to beatable. It randomizes an output only\
+        when depth is equal to two. The probability to win is representated by the variable depth. When the human player gives themselves
+        the highest probability to win, the AI will start randomly selecting things. The highest probability to win in tic-tac-toe
+        occurs when you start with the middle square. So if you as the human player repeatly start in the middle, AI will start to return
+        random indexs as opposed to the best available move. If you remove lines 180-184, then the min-max algorithm will go back into
+        effect and the game will be unbeatable. 
+        */
+        if (depth === 2) {
+          console.log(nodes);
+          const varince = nodes[score] ? `${index}` : index;
+          nodes[score] = varince;
+        }
       });
+
       //if it is the main call, return the index of the best move  
       if (depth === 0) {
         let returnValue;
-        if (typeof nodes[best] === "string") {
+          if (typeof nodes[best] === "string") {
           const arr = nodes[best].split(",");
           const rand = Math.floor(Math.random() * arr.length);
           returnValue = arr[rand];
