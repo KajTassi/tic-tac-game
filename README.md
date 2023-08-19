@@ -1,5 +1,7 @@
 # Kaj's Tic Tac Toe Game
 
+Deployed here: https://tic-tac-game-kappa.vercel.app/
+
 This is a one player, human vs AI tic-tac-toe game that was built using React.JS. If you would like to play the game live it can be found at ...
 
 If you would like to play the game locally you can download the zip file of this game, run "npm install", and then "npm start" to play the game locally. 
