@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Board from "../components/Board";
 import Scores from "../components/Scores";
+import About from "./About";
 import "./Styling.css";
 
 function Game() {
@@ -15,6 +16,7 @@ function Game() {
     <div className="Game">
       <Scores scores={scores}/>
       <Board setScores={setScores}/>
+      <About />
     </div>
   );
 }

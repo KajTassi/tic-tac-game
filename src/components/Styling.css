@@ -10,7 +10,7 @@
     display: flex;
     color: #fff;
     font-size: 26px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     justify-content: space-between;
     font-weight: 100;
   }
@@ -28,6 +28,17 @@
     margin-top: 5px;
     text-decoration: underline;
     font-family: cursive, Comic Sans MS, Snell Roundhand;
+  }
+
+  .about {
+    display: flex;
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    font-weight: 100;
+    width: 450px;
+    margin-top: 25px;
   }
   
   .square {
@@ -108,10 +119,16 @@ Section below is to define screen flex
 
   @media (max-width: 700px) {
     .scores {
-      font-size: 22px;
+      font-size: 18px;
     }
     .scores div {
       width: 100px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .about {
+      font-size: 18px;
     }
   }
 
