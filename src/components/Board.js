@@ -14,6 +14,7 @@ function Board({ setScores }) {
     setBoard(Array(9).fill(""));
   };
 
+  //function for pushing the index into empty cells
   const getAvailableMoves = (board) => {
     const moves = [];
     board.forEach((cell, index) => {
