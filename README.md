@@ -26,4 +26,4 @@ I built this application using the frameworks that I am most comfortable with.
 
 <p>Can you beat the AI?</p>
 
-<img src="/tic-tac-game/gameboard.JPG" width="800" height="auto" alt="Tic-tac-toe game screenshots">
+![gamebord](https://github.com/KajTassi/tic-tac-game/assets/107443773/dc49ea64-f339-44f7-b7b8-c756a4768f2a)
