@@ -114,8 +114,11 @@ Section below is to define screen flex
 
   @media (max-width: 700px) {
     .board {
-      max-width: 302px;
-      max-height: 302px;
+      max-width: 350px;
+      max-height: 350px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
     }
   }
 
