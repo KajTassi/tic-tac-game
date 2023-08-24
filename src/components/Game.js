@@ -13,11 +13,11 @@ function Game() {
   });
 
   return (
-    <div className="Game">
+    <body className="board">
       <Scores scores={scores}/>
       <Board setScores={setScores}/>
       <About />
-    </div>
+    </body>
   );
 }
 
